@@ -2099,16 +2099,13 @@
     <group>
       <name>STM32H7xx_HAL_Driver</name>
       <file>
-        <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c</name>
-        <excluded>
-          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
-        </excluded>
+        <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c</name>
-        <excluded>
-          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
-        </excluded>
+        <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c</name>
       </file>
       <file>
         <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c</name>
@@ -2144,9 +2141,6 @@
         <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c</name>
-      </file>
-      <file>
         <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c</name>
       </file>
       <file>
@@ -2157,12 +2151,6 @@
       </file>
       <file>
         <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c</name>
       </file>
       <file>
         <name>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_fdcan.c</name>
