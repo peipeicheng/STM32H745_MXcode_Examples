@@ -609,7 +609,7 @@
         </option>
         <option>
           <name>AUserIncludes</name>
-          <state></state>
+          <state>$PROJ_DIR$\..\CM4\Inc</state>
         </option>
         <option>
           <name>AExtraOptionsCheckV2</name>
@@ -1367,6 +1367,9 @@
           <state>$PROJ_DIR$/../CM7/Inc</state>
           <state>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Inc</state>
           <state>$PROJ_DIR$/../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy</state>
+          <state>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/include</state>
+          <state>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS</state>
+          <state>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F</state>
           <state>$PROJ_DIR$/../Drivers/CMSIS/Device/ST/STM32H7xx/Include</state>
           <state>$PROJ_DIR$/../Drivers/CMSIS/Include</state>
         </option>
@@ -1630,7 +1633,7 @@
         </option>
         <option>
           <name>AUserIncludes</name>
-          <state></state>
+          <state>$PROJ_DIR$\..\CM7\Inc</state>
         </option>
         <option>
           <name>AExtraOptionsCheckV2</name>
@@ -2086,6 +2089,9 @@
           <name>$PROJ_DIR$/../CM7/Src/main.c</name>
         </file>
         <file>
+          <name>$PROJ_DIR$/../CM7/Src/freertos.c</name>
+        </file>
+        <file>
           <name>$PROJ_DIR$/../CM7/Src/stm32h7xx_it.c</name>
         </file>
         <file>
@@ -2265,6 +2271,81 @@
       <name>CMSIS</name>
       <file>
         <name>$PROJ_DIR$/../Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c</name>
+      </file>
+    </group>
+  </group>
+  <group>
+    <name>Middlewares</name>
+    <group>
+      <name>FreeRTOS</name>
+      <excluded>
+        <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+      </excluded>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/croutine.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/list.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/queue.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/tasks.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/timers.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/port.c</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
+      </file>
+      <file>
+        <name>$PROJ_DIR$/../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM4F/portasm.s</name>
+        <excluded>
+          <configuration>STM32H745I-DISCO_blank_CM4</configuration>
+        </excluded>
       </file>
     </group>
   </group>
